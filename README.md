@@ -1,5 +1,7 @@
 # Pensieve
 
+_For an introduction / demo, see: https://youtu.be/gxAzPMqJ7Ic_
+
 This is a Maven project. Maven is simply a dependency manager for Java (https://maven.apache.org/).
 
 To run (main program is `stanford/edu/gitviewer/GitViewer.java`):
