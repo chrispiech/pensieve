@@ -1,6 +1,8 @@
 # Pensieve
 ### Chris Piech, Annie Hu, Lisa Yan (Stanford University)
 
+This is a Maven project. Maven is simply a dependency manager for Java (https://maven.apache.org/).
+
 To run (main program is `stanford/edu/gitviewer/GitViewer.java`):
 * Set `TEST_REPO_PATH` to the desired folder containing version history to view.
   * Our use case expects a .git history in this folder.
