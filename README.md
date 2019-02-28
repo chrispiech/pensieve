@@ -1,5 +1,4 @@
 # Pensieve
-### Chris Piech, Annie Hu, Lisa Yan (Stanford University)
 
 This is a Maven project. Maven is simply a dependency manager for Java (https://maven.apache.org/).
 
@@ -9,6 +8,7 @@ To run (main program is `stanford/edu/gitviewer/GitViewer.java`):
 * Run `GitViewer.java` as a Java application.
 
 Description of relevant files:
+* `runnable/`: contains drag-and-drop JARs for Deluxe and Lite versions of Pensieve
 * `stanford/edu/gitviewer/`: handles overall Pensieve setup and layout
   * `GitViewer.java`: main controller, full version of Pensieve used by Teaching Assistants
   * `GitViewerStudent.java`: condensed version of Pensieve given to students
@@ -19,3 +19,5 @@ Description of relevant files:
   * `Indentation.java, RunGraphs.java, SourceLengthGraph.java`: custom graphs that we designed and have used with Pensieve. additional / different ones can be added similarly!
   * `ImageViewPane.java`: handles sizing / resizing of right side panels
 * `minions/, util/`: useful utility classes
+
+_Chris Piech, Annie Hu, Lisa Yan (Stanford University)_
