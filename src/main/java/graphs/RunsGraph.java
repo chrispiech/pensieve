@@ -10,6 +10,14 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.chart.XYChart.Series;
 import stanford.edu.gitviewer.Intermediate;
 
+/**
+ * Class: Runs Graph
+ * -----------------
+ * This graph shows the number of times a student has run their program
+ * This is not a field which is naturally included in GIT repos. Instead
+ * it is a specialised field that we inject when the students are working.
+ * Though it won't work well for other git repos, we included it for reference.
+ */
 public class RunsGraph implements GitGraph{
 	private static final double EPSILON = 0.000000001;
 
