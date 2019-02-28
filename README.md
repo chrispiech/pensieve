@@ -22,4 +22,4 @@ Description of relevant files:
   * `ImageViewPane.java`: handles sizing / resizing of right side panels
 * `minions/, util/`: useful utility classes
 
-_Chris Piech, Annie Hu, Lisa Yan (Stanford University)_
+_Chris Piech (piech@cs.stanford.edu), Annie Hu (annie@cs.stanford.edu), Lisa Yan (yanlisa@stanford.edu)_
