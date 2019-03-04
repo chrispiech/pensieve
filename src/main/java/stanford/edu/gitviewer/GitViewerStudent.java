@@ -22,12 +22,12 @@ import javafx.geometry.Pos;
 public class GitViewerStudent extends Application {
 
 	// change these for testing
-	private static final String TEST_REPO_PATH = "./exampleGits/pensieve_demo";
+	private static final String TEST_REPO_PATH = "./exampleGits/student";
 	private static final String ERROR_REPO_PATH = ".";
 	// for actual student use
 	private static final String CURR_DIR = ".";
 
-	private static final String REPO_PATH = ERROR_REPO_PATH;
+	private static final String REPO_PATH = CURR_DIR;
 
 	private final ComboBox<String> comboBox = new ComboBox<String>();
 	private final CodeEditor editor = new CodeEditor("hello world");
